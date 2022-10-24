@@ -11,6 +11,7 @@ function App() {
         <ul>
           <li><Link to="/">Home</Link></li>
           <li><Link to="/bunny">Bunnies</Link></li>
+          <li><a href="https://github.com/vicontiveros00">Github</a></li>
         </ul>
       </nav>
     {/*begin routing*/}
@@ -25,9 +26,6 @@ function App() {
       </Routes>
     {/*end routing*/}
     </main>
-    <div className="footer-container">
-      <footer>github/vicontiveros00</footer>
-    </div>
   </>
   );
 }

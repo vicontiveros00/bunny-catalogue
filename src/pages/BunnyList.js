@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 export function BunnyList() {
     return (
         <>
-           <h1>Bunnies</h1>
            <ul className="list">
                 <li><Link to="/bunny/patkis">P&auml;tkis</Link></li>
                 <li><Link to="/bunny/hattara">Hattara</Link></li>
