@@ -1,5 +1,9 @@
 import React from "react"
 
 export function Home() {
-    return <h1>Here are my bunnies.</h1>
+    return (
+        <div className="jumbotron">
+            <h1>Hey, here's a catalogue of of my rabbits. You'd only find this by stalking my Github.</h1>
+        </div>
+    );
 }
